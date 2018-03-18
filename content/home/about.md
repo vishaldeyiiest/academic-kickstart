@@ -10,31 +10,19 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
-  ]
+    "Data Science & Algorithms",
+    "Networking",
+    "Social Networks", "Quantum Computing"
+   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "Bachelor of Technology in Computer Science and Technology"
+  institution = "Indian Institute of Engineering Science and Technology, Shibpur"
+  year = 2018
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I'm a final year student pursuing Bachelor of Technology in the Department of Computer Science and Technology of Indian Institute of Engineering Science and Technology, Shibpur, India. I have already authored three journal publications by 2018 (published by SCI Springer and Taylor & Francis), a conference paper (published by ACM Digital Library) and another conference paper (accepted in upcoming IEEE conference). I completed one summer internship of 2 months duration in 2017 under NTU-India Connect Program of Nanyang Technological University, Singapore. My research interests primarily include machine learning, design of algorithms related to data science and networking problems.

@@ -1,17 +1,6 @@
-# Configuration of Academic
-# Documentation: https://sourcethemes.com/academic/
-
-# The URL of your website.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
-
-# Title of your site
-title = "Academic"
-
-# Your copyright notice - appears in site footer.
-# To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
-
+baseurl = "https://vishaldeyiiest.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+title = "Academic Site of Vishal Dey"
+copyright = "&copy; 2017 Vishal Dey"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -43,27 +32,26 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
+  color_theme = "dark"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
-  # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Vishal Dey"
+  role = "B.Tech (final year), Computer Science and Technology"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Indian Insitute of Engineering Science and Technology, Shibpur", url = "https://iiests.ac.in" } ]
 
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "facepic.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  email = "vishal.iiestcst@gmail.com"
+  address = "Dept. of Computer Science & Technology, IIEST Shibpur, Howrah, 711103, India"
+  office_hours = ""
+  phone = "vishal.dd2014@cs.iiests.ac.in (I prefer mail!.)"
+  skype = "vishal.iiestcst@gmail.com"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -94,8 +82,8 @@ defaultContentLanguageInSubdir = false
   #   3: OpenStreetMap (Mapbox)
   map = 0
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "22.5552"
+  longitude = "88.3071"
   zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
@@ -110,7 +98,7 @@ defaultContentLanguageInSubdir = false
   # Display comment count? Requires commenting to be enabled.
   comment_count = true
 
-  # Display next/previous section pager?
+  # Display section pager for posts?
   section_pager = false
 
   # Enable global LaTeX math rendering?
@@ -161,16 +149,15 @@ defaultContentLanguageInSubdir = false
   #   The index of the publication type in the list is used as its unique numerical identifier.
   #   The numeric ID is used in a publication's frontmatter to categorize it.
   #   The language can be edited below.
-  #   For multilingual sites, `publication_types` can be copied to each language section at the end of this file and
-  #   translated.
+  #   For multi-lingual sites, copy this block to each language section at the end of this file.
   publication_types = [
     'Uncategorized',  # 0
-    'Conference paper',  # 1
-    'Journal article',  # 2
-    'Manuscript',  # 3
-    'Report',  # 4
+    'Conference proceedings',  # 1
+    'Journal',  # 2
+    'Work in progress',  # 3
+    'Technical report',  # 4
     'Book',  # 5
-    'Book section'  # 6
+    'Book chapter'  # 6
   ]
 
   # Configuration of talk pages.
@@ -217,22 +204,22 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:vishal.iiestcst@gmail.com"
 
-  [[params.social]]
-    icon = "twitter"
+ [[params.social]]
+    icon = "envelope"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "mailto:vishal.dd2014@cs.iiests.ac.in"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.co.in/citations?user=O2UtTjEAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "//github.com/vishaldeyiiest"
 
 
 # Navigation Links
@@ -254,8 +241,8 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Talks"
+  url = "#talks"
   weight = 3
 
 [[menu.main]]
